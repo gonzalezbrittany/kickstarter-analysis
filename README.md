@@ -13,6 +13,7 @@ Analysis of Outcomes Based on Goals
 Before the start of a campaign, various funding goals were set ranging from $1.00 to $100,000,000.00. For this analysis, dollar-amount ranges were created. The funding goal for each play campaign was grouped into these new ranges. A count of successful, failed, and canceled campaigns for each funding goal range was calculated. The count was then transformed into the percentage of successful, failed and canceled for the range based on the total number of play campaigns. The percentages of outcomes based on range are plotted on a line chart.
 
 (lll) Challenges and Difficulties Encountered
+
 	When first looking at the launched_at and deadline variables, it is not clear as to what these categories are meant to represent. The variable headers indicate this may be a date but the only way to confirm is by using a timestamp converter. After being made aware of resources available, a timestamp converter (https://www.epochconverter.com/)  was used to verify that these two variables are in fact dates. A formula was then implemented in the dataset to convert the timestamp to a format that can be used for analytical purposes. For this dataset, we convert these into a month/day/year format. 
 
 (llll) Results
