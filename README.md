@@ -1,9 +1,9 @@
-Data Exploration of Campaign Strategies 
+#Data Exploration of Campaign Strategies 
 
-(l) Overview of Project
+##Overview of Project
 	Do different variables impact the outcome of campaigns? If so, what variables seem to impact campaign outcomes the most? After looking into numerous variables and collecting data, the campaign for the play Fever shows to have been successful in a short period of time. The purpose of this analysis is to dig deeper into how funding goals and launch dates impact the outcomes of theater campaigns with a focus on plays. 
 
-(ll) Analysis	
+##Analysis	
 Analysis of Outcomes Based on Launch date
 
 For this analysis, we will be focusing on the parent category Theater. To find how launch date played an impact on outcomes, the campaign outcomes variable will show which campaigns were successful, failed or canceled. The launch date variable for each category is broken down by month to provide a clearer understanding of how campaign outcomes are impacted throughout the year. A count of successful, failed, and cancelled campaigns was collected and plotted on the line chart.
@@ -12,11 +12,11 @@ For this analysis, we will be focusing on the parent category Theater. To find h
 Analysis of Outcomes Based on Goals
 Before the start of a campaign, various funding goals were set ranging from $1.00 to $100,000,000.00. For this analysis, dollar-amount ranges were created. The funding goal for each play campaign was grouped into these new ranges. A count of successful, failed, and canceled campaigns for each funding goal range was calculated. The count was then transformed into the percentage of successful, failed and canceled for the range based on the total number of play campaigns. The percentages of outcomes based on range are plotted on a line chart.
 
-(lll) Challenges and Difficulties Encountered
+##Challenges and Difficulties Encountered
 
 	When first looking at the launched_at and deadline variables, it is not clear as to what these categories are meant to represent. The variable headers indicate this may be a date but the only way to confirm is by using a timestamp converter. After being made aware of resources available, a timestamp converter (https://www.epochconverter.com/)  was used to verify that these two variables are in fact dates. A formula was then implemented in the dataset to convert the timestamp to a format that can be used for analytical purposes. For this dataset, we convert these into a month/day/year format. 
 
-(llll) Results
+##Results
 
 	Outcomes based on launched date Analysis
   
